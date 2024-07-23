@@ -17,9 +17,9 @@ model Profissional {
   id                   Int           @id @default(autoincrement())
   nome                 String        @unique
   descricao            String
-  imagemUrl            String
+  imagemURL            String
   avaliacao            Float
-  quantidadeAvaliacoes Int
+  qtdeAvaliacoes Int
   agendamentos         Agendamento[]
 
   @@map("profissional")

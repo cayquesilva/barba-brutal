@@ -2,7 +2,7 @@ export default interface Profissional {
     id: number
     nome: string
     descricao: string
-    imagemUrl: string
+    imagemURL: string
     avaliacao: number
-    quantidadeAvaliacoes: number
+    qtdeAvaliacoes: number
 }
