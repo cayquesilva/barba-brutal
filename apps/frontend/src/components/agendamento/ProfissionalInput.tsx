@@ -21,7 +21,7 @@ function Opcao(props: {
             onClick={() => props.onClick(props.profissional)}
         >
             <Image
-                src={props.profissional.imagemUrl}
+                src={props.profissional.imagemURL}
                 alt={props.profissional.nome}
                 width={150}
                 height={150}
