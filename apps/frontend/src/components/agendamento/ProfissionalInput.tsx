@@ -1,4 +1,4 @@
-import useProfissionais from '@/data/hooks/useProfissionais'
+import { useProfissionais } from '@barba/ui'
 import { Profissional } from '@barba/core'
 import Image from 'next/image'
 
@@ -21,7 +21,7 @@ function Opcao(props: {
             onClick={() => props.onClick(props.profissional)}
         >
             <Image
-                src={props.profissional.imagemURL}
+                src={props.profissional.imagemUrl}
                 alt={props.profissional.nome}
                 width={150}
                 height={150}
