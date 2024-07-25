@@ -7,7 +7,6 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Barba Brutal",
   description: "Agendamento de serviços de barbearia",
-  
 };
 
 export default function RootLayout({
