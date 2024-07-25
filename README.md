@@ -1,3 +1,7 @@
+# Deployment Preview - Barba Brutal - Formação DEV
+
+https://barba-brutal-dev.vercel.app
+
 # Turborepo starter
 
 This is an official starter Turborepo.
